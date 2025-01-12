@@ -16,3 +16,9 @@ Download the “Kalpurush” font from <a class="af nx" href="https://okkhor52.c
     fc-cache -f -v
     /* now restart device */
     
+### $\textcolor{#389cff}{screen\ zoom\ commands}$
+```xrandr --listmonitors // show list
+xrandr --output eDP-1 --scale 0.8x0.8 // for zoom
+xrandr --auto
+xrandr --output eDP-1 --scale 1x1 // for default
+```
