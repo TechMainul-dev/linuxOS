@@ -28,4 +28,6 @@ xrandr --output eDP-1 --scale 1x1 // for default
 su --login
 dpkg --add-architecture i386
 apt install libgl1-nvidia-glvnd-glx:i386
+
+// then Enable Stream Play for all other titles - for install PUBG
 ```
