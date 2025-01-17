@@ -1,4 +1,8 @@
 # $\textcolor{yellow}{🖥️Linux\ OS\ Helper 🐧}$
+
+### $\textcolor{#389cff}{check\ os\ version}$
+```cat /etc/os-release```
+
 ## install supported fonts command
 ### $\textcolor{#389cff}{web\ browser\ broken\ bangla\ font\ fix}$
 Download the “Kalpurush” font from <a class="af nx" href="https://okkhor52.com/download.html?id=_001" rel="noopener ugc nofollow" target="_blank">Okkhor52</a> or any other trusted font provider. Unzip if there’s a zip file and look for <code class="cx pb pc pd pe b">kalpurush.ttf</code> file.</p>
