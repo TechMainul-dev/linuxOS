@@ -1,5 +1,11 @@
 # $\textcolor{yellow}{🖥️Linux\ OS\ Helper 🐧}$
 
+### $\textcolor{#389cff}{update\ parrot\ os}$
+```
+sudo parrot-upgrade
+sudo apt update && sudo apt full-upgrade
+```
+
 ### $\textcolor{#389cff}{check\ os\ version}$
 ```cat /etc/os-release```
 
