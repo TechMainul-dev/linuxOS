@@ -25,6 +25,21 @@ Download the “Kalpurush” font from <a class="af nx" href="https://okkhor52.c
     /* Now, clear the fonts cache to load the new fonts in the system: */
     fc-cache -f -v
     /* now restart device */
+
+    /* update node version */
+    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+    sudo apt install nodejs
+        /* if fails then update CURL */
+        sudo apt update
+        sudo apt install --reinstall ca-certificates
+        date
+        sudo timedatectl set-ntp true
+        curl -k -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+        sudo apt install curl
+    
+    /* Install Browsers */
+    curl -fsS https://dl.brave.com/install.sh | sh
+    
     
 ### $\textcolor{#389cff}{screen\ zoom\ commands}$
 ```xrandr --listmonitors // show list
