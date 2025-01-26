@@ -8,6 +8,8 @@ sudo apt update && sudo apt full-upgrade
 
 ### $\textcolor{#389cff}{check\ os\ version}$
 ```cat /etc/os-release```
+### $\textcolor{#389cff}{git\ clone\ with\ access/ token}$
+```git clone https://<tokenhere>@github.com/<user>/<repo>.git```
 
 ## install supported fonts command
 ### $\textcolor{#389cff}{web\ browser\ broken\ bangla\ font\ fix}$
