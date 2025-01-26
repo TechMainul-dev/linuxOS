@@ -47,6 +47,13 @@ xrandr --output eDP-1 --scale 0.8x0.8 // for zoom
 xrandr --auto
 xrandr --output eDP-1 --scale 1x1 // for default
 ```
+
+### $\textcolor{#389cff}{Install\ snap\ for\ install\ Windows\ app}$
+```
+sudo apt update
+sudo apt install snapd
+Skype: sudo snap install skype
+```
     
 ### $\textcolor{#389cff}{Stream\ errror:\ You\ are\ missing\ the\ following\ 32-bit\ libraries,\ and\ Steam\ may\ not\ run:\ libGL.so.1}$
 ```xrandr --listmonitors // show list
