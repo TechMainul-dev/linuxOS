@@ -63,3 +63,6 @@ apt install libgl1-nvidia-glvnd-glx:i386
 
 // then Enable Stream Play for all other titles - for install PUBG
 ```
+
+### $\textcolor{#389cff}{linux\ others\ apps\ URL}$
+github: https://github.com/shiftkey/desktop/releases/
