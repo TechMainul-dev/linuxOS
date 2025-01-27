@@ -56,6 +56,12 @@ sudo apt update
 sudo apt install snapd
 Skype: sudo snap install skype
 ```
+
+### $\textcolor{#389cff}{Take\ screenshot\ commands}$
+```
+mate-screenshot --interactive
+mate-screenshot --area
+```
     
 ### $\textcolor{#389cff}{Stream\ errror:\ You\ are\ missing\ the\ following\ 32-bit\ libraries,\ and\ Steam\ may\ not\ run:\ libGL.so.1}$
 ```xrandr --listmonitors // show list
