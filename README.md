@@ -75,6 +75,8 @@ apt install libgl1-nvidia-glvnd-glx:i386
 ### $\textcolor{#389cff}{linux\ others\ apps\ URL}$
 github: https://github.com/shiftkey/desktop/releases/
 
+#### $\textcolor{#389cff}{Recorder}$
+sudo apt install simplescreenrecorder
 
     
 ### $\textcolor{#389cff}{Backup\ softwares\ and\ commands}$
