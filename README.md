@@ -131,6 +131,14 @@ sudo apt-get dselect-upgrade
 sudo tar -xzvf etc-backup.tar.gz -C /
 tar -xzvf home-backup.tar.gz -C /
 ```
+
+If you want to be selective, you can back up only the relevant configuration folders:
+```
+## backup
+tar -czvf config-backup.tar.gz /home/your-username/.config /home/your-username/.local /home/your-username/.gnome /home/your-username/.xfce
+## restore
+tar -xzvf config-backup.tar.gz -C /home/your-username
+```
 Restore Important Data:
 
 Copy your important files back to their original locations.
