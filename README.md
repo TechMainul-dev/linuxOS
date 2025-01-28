@@ -78,19 +78,36 @@ github: https://github.com/shiftkey/desktop/releases/
 
     
 ### $\textcolor{#389cff}{Backup\ softwares\ and\ commands}$
+#### Option A: backup with software 
 ```sudo apt update
 sudo apt install timeshift
 ```
-#### option B
-Option B: Manual Backup
-Backup Installed Packages:
+#### option B: Manual Backup
+## Clear caches
+```# Clear user cache
+rm -rf ~/.cache/*
 
+# Clear system cache
+sudo rm -rf /var/cache/*
+
+# Clear APT cache
+sudo apt clean
+
+# Clear trash
+rm -rf ~/.local/share/Trash/*
+
+# Clear system logs
+sudo journalctl --vacuum-time=1d
+
+# Clear temporary files
+sudo rm -rf /tmp/*
+rm -rf ~/.tmp/*
+```
+Backup Installed Packages:
 Generate a list of installed packages:
 ```sudo dpkg --get-selections > package-list.txt```
 Save the package-list.txt file to an external drive or cloud storage.
-
 Backup Configuration Files:
-
 Backup your /etc directory (contains system-wide configurations):
 
 ```sudo tar -czvf etc-backup.tar.gz /etc
@@ -99,9 +116,7 @@ tar -czvf home-backup.tar.gz /home/your-username
 ```
 
 Backup Important Data:
-
 Copy any important files or directories to an external drive or cloud storage.
-
 Reinstall Parrot OS (if necessary).
 Restore Installed Packages:
 Copy the package-list.txt file to your new system.
