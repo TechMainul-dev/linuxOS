@@ -41,7 +41,14 @@ Download the “Kalpurush” font from <a class="af nx" href="https://okkhor52.c
     
     /* Install Browsers */
     curl -fsS https://dl.brave.com/install.sh | sh
-    
+
+### $\textcolor{#389cff}{install\ bangla\ keyboard}$
+```
+sudo apt install ibus-avro
+sudo apt update
+im-config -n ibus
+sudo reboot
+```
     
 ### $\textcolor{#389cff}{screen\ zoom\ commands}$
 ```xrandr --listmonitors // show list
