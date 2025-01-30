@@ -85,6 +85,9 @@ github: https://github.com/shiftkey/desktop/releases/
 #### $\textcolor{#389cff}{Recorder}$
 sudo apt install simplescreenrecorder
 
+#### $\textcolor{#389cff}{Multi Copy}$
+sudo apt-get install copyq
+
     
 ### $\textcolor{#389cff}{Backup\ softwares\ and\ commands}$
 #### Option A: backup with software 
