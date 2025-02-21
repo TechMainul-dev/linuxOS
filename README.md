@@ -81,6 +81,7 @@ apt install libgl1-nvidia-glvnd-glx:i386
 
 ### $\textcolor{#389cff}{linux\ others\ apps\ URL}$
 github: https://github.com/shiftkey/desktop/releases/
+
 sourceGit: https://github.com/sourcegit-scm/sourcegit/releases/tag/v2025.05
 
 #### $\textcolor{#389cff}{Recorder}$
