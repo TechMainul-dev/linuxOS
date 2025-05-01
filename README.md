@@ -156,3 +156,11 @@ tar -xzvf config-backup.tar.gz -C /home/your-username
 Restore Important Data:
 
 Copy your important files back to their original locations.
+
+### $\textcolor{#389cff}{install\ anti\ virus}$
+```
+## install command
+sudo apt install clamav
+## scan device
+sudo clamscan -r /home
+```
