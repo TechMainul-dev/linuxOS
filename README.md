@@ -161,6 +161,26 @@ Copy your important files back to their original locations.
 ```
 ## install command
 sudo apt install clamav
+
 ## scan device
 sudo clamscan -r /home
+
+## scan in background
+sudo clamscan -r /home > scan_results.txt 2>&1 &
+
+## for update anti virus
+sudo freshclam
+
+## for a directory only
+sudo clamscan -r ~/Downloads
+
+### check file before install
+ls -l suspicious_file_name
+or
+clamscan suspicious_file_name
+```
+
+```
+## check running apps in background or not
+ps aux | grep application_name
 ```
