@@ -180,7 +180,16 @@ or
 clamscan suspicious_file_name
 ```
 
-```
 ## check running apps in background or not
+```
 ps aux | grep application_name
+```
+
+###  $\textcolor{#389cff}{add\ / remove\ video\ converter}$
+```
+### add
+sudo snap install formatlab
+
+### remove
+sudo snap remove formatlab --purge;sudo snap remove pyqt5-runtime-core20 --purge;sudo snap install pyqt5-runtime-core20;sudo snap install formatlab;formatlab
 ```
