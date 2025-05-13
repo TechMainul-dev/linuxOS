@@ -185,11 +185,11 @@ clamscan suspicious_file_name
 ps aux | grep application_name
 ```
 
-###  $\textcolor{#389cff}{add\ / remove\ video\ converter}$
+###  $\textcolor{#389cff}{add\ video\ converter}$
 ```
 ### add
 sudo snap install formatlab
 
-### remove
+### if not working then
 sudo snap remove formatlab --purge;sudo snap remove pyqt5-runtime-core20 --purge;sudo snap install pyqt5-runtime-core20;sudo snap install formatlab;formatlab
 ```
